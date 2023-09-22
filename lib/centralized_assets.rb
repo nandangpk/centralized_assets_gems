@@ -11,7 +11,7 @@ module CentralizedAssets
   end
   class Configuration
     include ActiveSupport::Configurable
-    config_accessor(:database_url) { "postgresql://username:password@localhost:5432/db_name" }
+    config_accessor(:database_url) { "postgresql://postgres:dombakuring@localhost:5432/test_storage_api_development" }
     config_accessor(:server_url) { ".." }
     config_accessor(:token) { ".." }
   end
