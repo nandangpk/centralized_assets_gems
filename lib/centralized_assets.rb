@@ -11,7 +11,7 @@ module CentralizedAssets
   end
   class Configuration
     include ActiveSupport::Configurable
-    config_accessor(:database_url) { ".." }
+    config_accessor(:database_url) { "postgresql://username:password@host:port/db_name" }
     config_accessor(:server_url) { ".." }
     config_accessor(:token) { ".." }
   end
