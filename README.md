@@ -71,7 +71,7 @@ end
 ##### Controller Configuration
 
 There's several way to configure the controller:
-1. Permitted parameters (RECOMENDED)
+1. Permitted parameters (Recommended)
    
    <sub>app/controllers/examples_controller.rb</sub>
    ```ruby
@@ -213,7 +213,7 @@ end
 ##### Controller Configuration
 
 There's several way to configure the controller:
-1. Permitted parameters (RECOMENDED)
+1. Permitted parameters (Recommended)
    
    <sub>app/controllers/examples_controller.rb</sub>
    ```ruby
@@ -327,18 +327,12 @@ example.files
 #   return nil
 #
 
-example.file.present?
-# if attachment is present
+example.files.present?
+# if attachment is present (atleast one)
 #    return true
 # else
 #   return false
 #
-
-example.file[:hash_key]
-# if hash_key is valid
-#   return the data
-# else
-#   raise "Invalid hash keys, accept only: [ACCEPTED_HASH_KEYS.to_sym]"
 
 example.files.each do |file|
    file
