@@ -3,22 +3,22 @@
 Ruby on Rails Gem for Assets Centralization Project (NEW CDN SERVER) at PT. Tri Saudara Sentosa Industri
 
 ## Table of Content
-* [Summary](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#summary)
-* [Table of Content](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#table-of-content)
-* [Project Status](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#project-status)
-* [Installation](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#installation)
-   * [Gem Installation](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#gem-installation)
-   * [Generate Initializer for Gem Config](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#generate-initializer-for-gem-config)
-   * [Configuration File Explanation](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#configuration-file-explanation)
-* [How to Use?](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#how-to-use)
-   * [Single Attachment](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#single-attachment)
-      * [Model Configuration](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#model-configuration)
-      * [Controller Configuration](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#controller-configuration)
-      * [Methods](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#methods)
-   * [Multiple Attachment](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#multiple-attachment)
-      * [Model Configuration](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#model-configuration-1)
-      * [Controller Configuration](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#controller-configuration-1)
-      * [Methods](https://github.com/nandangpk/centralized_assets_gems/blob/main/README.md#methods-1)
+* [Summary](https://github.com/nandangpk/centralized_assets_gems#summary)
+* [Table of Content](https://github.com/nandangpk/centralized_assets_gems#table-of-content)
+* [Project Status](https://github.com/nandangpk/centralized_assets_gems#project-status)
+* [Installation](https://github.com/nandangpk/centralized_assets_gems#installation)
+   * [Gem Installation](https://github.com/nandangpk/centralized_assets_gems#gem-installation)
+   * [Generate Initializer for Gem Config](https://github.com/nandangpk/centralized_assets_gems#generate-initializer-for-gem-config)
+   * [Configuration File Explanation](https://github.com/nandangpk/centralized_assets_gems#configuration-file-explanation)
+* [How to Use?](https://github.com/nandangpk/centralized_assets_gems#how-to-use)
+   * [Single Attachment](https://github.com/nandangpk/centralized_assets_gems#single-attachment)
+      * [Model Configuration](https://github.com/nandangpk/centralized_assets_gems#model-configuration)
+      * [Controller Configuration](https://github.com/nandangpk/centralized_assets_gems#controller-configuration)
+      * [Methods](https://github.com/nandangpk/centralized_assets_gems#methods)
+   * [Multiple Attachment](https://github.com/nandangpk/centralized_assets_gems#multiple-attachment)
+      * [Model Configuration](https://github.com/nandangpk/centralized_assets_gems#model-configuration-1)
+      * [Controller Configuration](https://github.com/nandangpk/centralized_assets_gems#controller-configuration-1)
+      * [Methods](https://github.com/nandangpk/centralized_assets_gems#methods-1)
 ## Project Status
 `ONGOING DEVELOPMENT`
 ## Installation
