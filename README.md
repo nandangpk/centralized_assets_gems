@@ -10,6 +10,7 @@ Ruby on Rails Gem for Assets Centralization Project (NEW CDN SERVER) at PT. Tri 
    * [Gem Installation](https://github.com/nandangpk/centralized_assets_gems#gem-installation)
    * [Generate Initializer for Gem Config](https://github.com/nandangpk/centralized_assets_gems#generate-initializer-for-gem-config)
    * [Configuration File Explanation](https://github.com/nandangpk/centralized_assets_gems#configuration-file-explanation)
+   * [Import Gem in Your ApplicationRecord](https://github.com/nandangpk/centralized_assets_gems/#import-gem-in-your-applicationrecord)
 * [How to Use?](https://github.com/nandangpk/centralized_assets_gems#how-to-use)
    * [Single Attachment](https://github.com/nandangpk/centralized_assets_gems#single-attachment)
       * [Model Configuration](https://github.com/nandangpk/centralized_assets_gems#model-configuration)
@@ -53,6 +54,19 @@ end
 |database_url|STILL BUG - FIXED ASAP|
 |server_url|assets server host|
 |token|application token for assets server|
+
+
+### Import Gem in your ApplicationRecord
+
+<sub>app/models/example.rb</sub>
+```ruby
+require 'centralized_assets'  # add this line
+class ApplicationRecord < ActiveRecord::Base
+  include CentralizedAssets # add this line
+  ...
+end
+
+```
 
 ## How to Use?
 
@@ -103,9 +117,9 @@ There's several way to configure the controller:
    <sub>app/views/examples/_form.html.erb</sub>
    ```erb
    <%= form_with(model: example, multipart: true) do |form| %>
-   ...
+     ...
       <%= form.file_field :attachment %>
-   ...
+     ...
    <% end %>
    ```
 2. Manual
@@ -183,14 +197,12 @@ example.file
 #    return {:url => "DIRECT_URL_TO_ASSETS:string", :filename=>"ASSETS_FILENAME:string", :ext=>"ASSETS_EXTENSION:string", :size=>{:kb=>(SIZE_IN_KB:integer), :mb=>(SIZE_IN_MB:integer)}}
 # else
 #   return nil
-#
 
 example.file.present?
 # if attachment is present
 #    return true
 # else
 #   return false
-#
 
 example.file[:hash_key]
 # if hash_key is valid
@@ -325,14 +337,12 @@ example.files
 #    return [ {:url => "DIRECT_URL_TO_ASSETS:string", :filename=>"ASSETS_FILENAME:string", :ext=>"ASSETS_EXTENSION:string", :size=>{:kb=>(SIZE_IN_KB:integer), :mb=>(SIZE_IN_MB:integer)}}, .., .. ]
 # else
 #   return nil
-#
 
 example.files.present?
 # if attachment is present (atleast one)
 #    return true
 # else
 #   return false
-#
 
 example.files.each do |file|
    file
