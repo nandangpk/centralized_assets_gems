@@ -10,7 +10,7 @@ Ruby on Rails Gem for Assets Centralization Project (NEW CDN SERVER) at PT. Tri 
    * [Gem Installation](https://github.com/nandangpk/centralized_assets_gems#gem-installation)
    * [Generate Initializer for Gem Config](https://github.com/nandangpk/centralized_assets_gems#generate-initializer-for-gem-config)
    * [Configuration File Explanation](https://github.com/nandangpk/centralized_assets_gems#configuration-file-explanation)
-   * [Import Gem in Your ApplicationRecord](https://github.com/nandangpk/centralized_assets_gems/#import-gem-in-your-applicationrecord)
+   * [Import Gem in Your ApplicationRecord](https://github.com/nandangpk/centralized_assets_gems#import-gem-in-your-applicationrecord)
 * [How to Use?](https://github.com/nandangpk/centralized_assets_gems#how-to-use)
    * [Single Attachment](https://github.com/nandangpk/centralized_assets_gems#single-attachment)
       * [Model Configuration](https://github.com/nandangpk/centralized_assets_gems#model-configuration)
